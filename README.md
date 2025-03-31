@@ -40,6 +40,7 @@ Once the server is running, you can create notes in Flomo through natural langua
 ```json
 "How to publish a mcp server? Could you save the answer to flomo note after answering it"
 ```
+<img src="https://raw.githubusercontent.com/xianminx/mcp-server-flomo/refs/heads/main/public/images/mcp-cursor-flomo.png" width="400">
 
 The server will handle:
 
