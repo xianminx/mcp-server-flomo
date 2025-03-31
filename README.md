@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server that lets you create notes in Flomo direct
 
 
 ```bash
-npx @michaellatman/mcp-get@latest install @kimtaeyoon83/mcp-server-youtube-transcript
+npx @michaellatman/mcp-get@latest install mcp-server-flomo
 ```
 
 ### [mcp.so](https://mcp.so/server/mcp-server-flomo/xianminx)
