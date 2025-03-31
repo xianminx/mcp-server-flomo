@@ -1,11 +1,11 @@
 {
-  "name": "flomo-mcp-server",
+  "name": "mcp-server-flomo",
   "version": "0.0.2",
   "description": "A MCP server for Flomo",
   "main": "./build/index.js",
   "type": "module",
   "bin": {
-    "flomo-mcp-server": "./build/index.js"
+    "mcp-server-flomo": "./build/index.js"
   },
   "scripts": {
     "build": "tsc",
