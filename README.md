@@ -1,6 +1,6 @@
 # Flomo MCP Server
 
-![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/npm/l/mcp-server-flomo)
+![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/github/license/xianminx/mcp-server-flomo?style=flat-square)
 
 https://github.com/xianminx/mcp-server-flomo
 
