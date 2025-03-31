@@ -4,6 +4,7 @@
   "description": "A MCP server for Flomo",
   "main": "./build/index.js",
   "type": "module",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/xianminx/mcp-server-flomo.git"
