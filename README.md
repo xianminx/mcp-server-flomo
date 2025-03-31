@@ -1,12 +1,18 @@
 # Flomo MCP Server
 
+https://github.com/xianminx/mcp-server-flomo
+
 A Model Context Protocol (MCP) server that lets you create notes in Flomo directly through AI chat interactions in Cursor or Claude desktop. Write and organize your thoughts seamlessly through natural language commands.
 
 ## Usage
 
 Configure Claude / Cursor / Windsurf / Cline / ChatWise / Cherry Studio etc.
 
-See <https://mcp.so/server/mcp-server-flomo>
+```bash
+FLOMO_API_URL=your_api_url_here npx -y mcp-server-flomo
+```
+
+Or configure for your MCP Host / Client. See https://mcp.so/server/mcp-server-flomo for configuration detail.
 
 Get your Flomo API URL from [Flomo API Settings](https://v.flomoapp.com/mine)
 
