@@ -1,6 +1,6 @@
 {
   "name": "flomo-mcp-server",
-  "version": "0.0.2-0",
+  "version": "0.0.2",
   "description": "A MCP server for Flomo",
   "main": "./build/index.js",
   "type": "module",
