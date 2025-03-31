@@ -27,6 +27,15 @@
     "prepare": "npm run build",
     "dev": "npx @modelcontextprotocol/inspector && ts-node-dev --respawn index.ts"
   },
+  "files": [
+    "build/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
     "zod": "^3.22.4"

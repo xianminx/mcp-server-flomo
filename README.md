@@ -1,12 +1,25 @@
 # Flomo MCP Server
-
-![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/github/license/xianminx/mcp-server-flomo?style=flat-square)
+![](https://badge.mcpx.dev?type=server 'MCP Server') ![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/github/license/xianminx/mcp-server-flomo?style=flat-square)
 
 https://github.com/xianminx/mcp-server-flomo
 
 A Model Context Protocol (MCP) server that lets you create notes in Flomo directly through AI chat interactions in Cursor or Claude desktop. Write and organize your thoughts seamlessly through natural language commands.
 
 ## Usage
+
+### [mcp-get](https://mcp-get.com/) 
+
+![mcp-get: mcp-server-flomo](https://img.shields.io/badge/mcp--get-mcp--server--flomo-blue)
+
+
+```bash
+npx @michaellatman/mcp-get@latest install @kimtaeyoon83/mcp-server-youtube-transcript
+```
+
+### [mcp.so](https://mcp.so/server/mcp-server-flomo/xianminx)
+https://mcp.so/server/mcp-server-flomo/xianminx
+
+### Manually configure
 
 Configure Claude / Cursor / Windsurf / Cline / ChatWise / Cherry Studio etc.
 
