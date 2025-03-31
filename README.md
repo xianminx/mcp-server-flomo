@@ -1,4 +1,5 @@
-# Flomo MCP Server
+# Flomo MCP Server 
+![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/npm/l/mcp-server-flomo)
 
 https://github.com/xianminx/mcp-server-flomo
 
@@ -65,4 +66,4 @@ The server will handle:
 
 ## License
 
-MIT
+This project is licensed under the MIT License—see the [LICENSE](LICENSE) file for details.
