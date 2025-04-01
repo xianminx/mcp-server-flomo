@@ -1,11 +1,20 @@
 # Flomo MCP Server
 ![](https://badge.mcpx.dev?type=server 'MCP Server') ![NPM Version](https://img.shields.io/npm/v/mcp-server-flomo) ![MIT licensed](https://img.shields.io/github/license/xianminx/mcp-server-flomo?style=flat-square)
+[![smithery badge](https://smithery.ai/badge/mcp-server-flomo)](https://smithery.ai/server/mcp-server-flomo/wss://mcp.smithery.ai:443)
 
 https://github.com/xianminx/mcp-server-flomo
 
 A Model Context Protocol (MCP) server that lets you create notes in Flomo directly through AI chat interactions in Cursor or Claude desktop. Write and organize your thoughts seamlessly through natural language commands.
 
 ## Usage
+
+### Installing via Smithery
+
+To install mcp-server-flomo for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-server-flomo/wss://mcp.smithery.ai:443):
+
+```bash
+npx -y @smithery/cli install mcp-server-flomo --client claude
+```
 
 ### [mcp-get](https://mcp-get.com/) 
 
@@ -17,27 +26,26 @@ npx @michaellatman/mcp-get@latest install mcp-server-flomo
 ```
 
 ### [mcp.so](https://mcp.so/server/mcp-server-flomo/xianminx)
-https://mcp.so/server/mcp-server-flomo/xianminx
+https://mcp.so/protocol/mcp-server-flomo/wss://mcp.smithery.ai:443
 
 ### Manually configure
 
 Configure Claude / Cursor / Windsurf / Cline / ChatWise / Cherry Studio etc.
 
 ```bash
-FLOMO_API_URL=your_api_url_here npx -y mcp-server-flomo
+FLOMO_API_URL=your_api_url_here npx mcp-server-flomo
 ```
 
-Or configure for your MCP Host / Client. See https://mcp.so/server/mcp-server-flomo for configuration detail.
+Or configure for your MCP Host / Client. See https://mcp.so/protocol/mcp-server-flomo/wss://mcp.smithery.ai:443 for configuration detail.
 
 Get your Flomo API URL from [Flomo API Settings](https://v.flomoapp.com/mine)
 
-```bash
+```json
 {
   "mcpServers": {
     "mcp-server-flomo": {
       "command": "npx",
       "args": [
-        "-y",
         "mcp-server-flomo"
       ],
       "env": {
