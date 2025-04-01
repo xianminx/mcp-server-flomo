@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - floMoApiUrl
+    properties:
+      floMoApiUrl:
+        type: string
+        description: The Flomo API URL. Get your token from https://v.flomoapp.com/mine.
+    default: {}
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: ['/app/build/index.js'],
+      env: { FLOMO_API_URL: config.floMoApiUrl }
+    })
+  exampleConfig:
+    floMoApiUrl: https://your.flomoapi.url/endpoint
